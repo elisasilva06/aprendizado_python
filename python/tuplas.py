@@ -46,3 +46,26 @@
 # for num in lista:
 #     if num % 2 == 0:
 #         print(num, end=' ')
+
+
+
+# listagem = ('arroz', 5, 'leite', 4, 'feijão', 3, 'açúcar', 2, 'café', 1, 'macarrão', 6, 'óleo', 2, 'farinha', 4)
+# print('-='*15)
+
+# print('-='*15)
+# for pos in range(0,len(listagem)):
+#     if pos % 2 == 0:
+#         print(f'{listagem[pos]:.<30}', end='')
+#     else:
+#         print(f'R${listagem[pos]:>7.2f}')
+# print('-='*15)            
+
+
+
+palavras = ('ana','maria','duke','joao')
+for count in palavras:
+    print(f'\nno nome {count.upper()} temos ', end='')
+    for letra in count:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
+    
